@@ -56,13 +56,17 @@ body{
     flex-direction: column;
 }
 .main_input{
-    border-radius: 10px;
+    border-radius: 15px;
     height: 30px;
     border: 1px solid var(--Pale-Blue);
+    font-size: 0.5em;
+    width: 250px;
+    padding-left: 15px;
+    color: var(--Pale-Blue);
 }
 .main_button{
     margin-top: 10px;
-    border-radius: 10px;
+    border-radius: 15px;
     background-color: var(--Blue);
     border: 0px solid black;
     height: 30px;
@@ -87,6 +91,11 @@ body{
 }
 .fa-brands{
     color: var(--Blue);
+}
+.footer-tex{
+    font-size: 0.5em;
+    margin: 15px 0px;
+
 }
 
 @media (min-width: 500px) {
