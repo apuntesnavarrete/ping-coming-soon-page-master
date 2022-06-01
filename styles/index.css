@@ -110,8 +110,40 @@ body{
 
 }
 
-@media (min-width: 500px) {
+@media (min-width: 800px) {
+    .main_logo{
+        width: 120px;
+    }
+    .main_title{
+        font-size: 2em;
+    }
+    .main_span{
+        font-size: 1em;
+    }
    .main_form{
         flex-direction: row;
+   }
+   .main_subtitle{
+       font-size: 1em;
+   }
+   .img_ilustration{
+    width: 700px;
+   }
+   .main_form{
+    width: 500px;
+    justify-content: center;
+
+   }
+   .main_button{
+    margin-left: 10px;
+    margin-top: 0px;
+    width: 110px;
+    height: 40px;
+
+   }
+   .main_input{
+       width: 330px;
+       height: 40px;
+
    }
   }
