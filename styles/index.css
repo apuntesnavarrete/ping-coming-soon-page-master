@@ -71,19 +71,21 @@ body{
 .form_error{
     display: none;
     font-size: 0.5em;
-    margin-top: 5px;
     color: var(--Light-Red);
     font-style: italic;
+    position: relative;
+    top: -50px;
 }
 .main_button{
     width: 250px;
-    margin-top: 10px;
+    margin-top: 25px;
     border-radius: 15px;
     background-color: var(--Blue);
     border: 0px solid black;
     height: 30px;
     color: white;
     font-size: 0.5em;
+
 }
 .img_ilustration{
     width: 300px;
@@ -146,4 +148,8 @@ body{
        height: 40px;
 
    }
+   .form_error{
+    top: 10px;
+    left: -129px;  
+ }
   }
