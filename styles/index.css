@@ -85,7 +85,8 @@ body{
     height: 30px;
     color: white;
     font-size: 0.5em;
-
+    box-shadow: 1px 1px 7px 1px var(--Gray);
+    cursor: pointer;
 }
 .img_ilustration{
     width: 300px;
@@ -141,6 +142,7 @@ body{
     margin-top: 0px;
     width: 110px;
     height: 40px;
+    font-size: 0.6em;
 
    }
    .main_input{
@@ -152,4 +154,11 @@ body{
     top: 10px;
     left: -129px;  
  }
+ .footer_content-icons{
+    width: 150px;
+}
+
+.footer-tex{
+    font-size: 0.8em;
+}
   }
