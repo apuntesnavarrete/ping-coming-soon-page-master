@@ -108,7 +108,7 @@ body {
   color: var(--Blue);
   border: 0.2px solid var(--Pale-Blue);
   border-radius: 50%;
-  display: flex;
+  display: var(--fa-display,flex);
   justify-content: center;
     align-items: center;
     cursor: pointer;
