@@ -103,16 +103,15 @@ body {
   justify-content: space-around;
 }
 .fa-brands {
-    width: 40px;
-    height: 40px;
+   width: 30px;
+   height: 30px;
   color: var(--Blue);
   border: 0.2px solid var(--Pale-Blue);
   border-radius: 50%;
-  display: var(--fa-display,flex);
-  justify-content: center;
-    align-items: center;
     cursor: pointer;
     transition: all 0.5s;
+    padding: 4.5px;
+    text-align: center;
 }
 .fa-brands:hover{
     transform: scale(1.1);
